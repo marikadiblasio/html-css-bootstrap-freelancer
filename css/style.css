@@ -19,3 +19,17 @@ header, #bottom-footer {
 #top-footer {
     background-color: var(--light-gray);
 }
+.my-bg-white {
+    background-color: var(--white);
+}
+.my-middle-line {
+    height: 1px;
+    width: 60px;
+}
+.my-text-black {
+    color: var(--black);
+}
+.my-border-black {
+    border-color: var(--black) !important;;
+    /* border-color: rgba(var(--bs-secondary-rgb),var(--bs-border-opacity))!important; */
+}
