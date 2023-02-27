@@ -35,3 +35,15 @@ header, #bottom-footer {
 .my-border-black {
     border-color: var(--black) !important;
 }
+.my-text-white:active {
+    color: var(--white);
+
+}
+a.my-text-white:hover, #top-footer a {
+    color: var(--aqua);
+}
+#top-footer .rounded-circle {
+    width: 26px;
+    height: 26px;
+    padding: 0;
+}
