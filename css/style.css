@@ -1,0 +1,21 @@
+/* Color styles */
+:root {
+--dark-gray: #2C3E50;
+--aqua: #1ABC9C;
+--white: #FFFFFF;
+--light-gray: #3A546D;
+--black: #333333;
+}
+
+body {
+    color: var(--white)
+}
+header, #bottom-footer {
+    background-color: var(--dark-gray);
+}
+#hero, #about {
+    background-color: var(--aqua);
+}
+#top-footer {
+    background-color: var(--light-gray);
+}
