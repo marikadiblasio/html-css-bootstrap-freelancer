@@ -29,7 +29,9 @@ header, #bottom-footer {
 .my-text-black {
     color: var(--black);
 }
+.my-text-white {
+    color: var(--white);
+}
 .my-border-black {
-    border-color: var(--black) !important;;
-    /* border-color: rgba(var(--bs-secondary-rgb),var(--bs-border-opacity))!important; */
+    border-color: var(--black) !important;
 }
