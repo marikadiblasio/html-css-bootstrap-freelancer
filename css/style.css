@@ -8,7 +8,7 @@
 }
 
 body {
-    color: var(--white)
+    color: var(--white);
 }
 header, #bottom-footer {
     background-color: var(--dark-gray);
@@ -50,4 +50,30 @@ a.my-text-white:hover, #top-footer a.text-decoration-none {
 }
 #top-footer a.text-decoration-none:hover{
     text-decoration: underline!important;
+}
+.img-container::after {
+    content: '+';
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+    color: #FFFFFF;
+    position: absolute;
+    background-color: rgba(26, 188, 157, 0.7);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+}
+.img-container:hover:after{
+    opacity: 1;
+}
+.img-container {
+    cursor: pointer;
+}
+#contact .form-control::placeholder {
+    color: black;
+    font-size: 1.5rem;
 }
