@@ -35,15 +35,19 @@ header, #bottom-footer {
 .my-border-black {
     border-color: var(--black) !important;
 }
-.my-text-white:active {
+.my-text-white:active, #top-footer i {
     color: var(--white);
 
 }
-a.my-text-white:hover, #top-footer a {
+a.my-text-white:hover, #top-footer a.text-decoration-none {
     color: var(--aqua);
 }
 #top-footer .rounded-circle {
     width: 26px;
     height: 26px;
     padding: 0;
+    cursor: pointer;
+}
+#top-footer a.text-decoration-none:hover{
+    text-decoration: underline!important;
 }
